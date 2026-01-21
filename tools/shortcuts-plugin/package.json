@@ -11,7 +11,8 @@
     "@nx/devkit": "22.3.3",
     "@angular/core": "^21.1.0",
     "vitest": "4.0.17",
-    "@nx/vite": "^22.3.3"
+    "@nx/vite": "^22.3.3",
+    "@nx-adventures/generators-utils": "0.0.1"
   },
   "generators": "./generators.json"
 }

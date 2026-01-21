@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 
 
 @Component({
-  selector: 'app-nx-welcome',
+  selector: 'aviva-nx-welcome',
   imports: [],
   template: `
     <!--
