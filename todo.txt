@@ -1,1 +1,6 @@
 Check test Config.
+Remove jest stuff??????
+
+
+
+Generators: Add more tests

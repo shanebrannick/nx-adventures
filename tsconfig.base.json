@@ -26,6 +26,12 @@
       ],
       "@ng-demo-web-core/config/images": [
         "libs/@angular-demo/web/@core/config/images/src/index.ts"
+      ],
+      "@nx-adventures/shortcuts-plugin": [
+        "tools/shortcuts-plugin/src/index.ts"
+      ],
+      "@nx-adventures/generators-utils": [
+        "libs/tools/generators/utils/src/index.ts"
       ]
     }
   },
