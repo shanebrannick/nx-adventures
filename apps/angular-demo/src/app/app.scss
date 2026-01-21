@@ -1,0 +1,15 @@
+:host{
+    display: block;
+    padding: 48px 24px;
+}
+
+.images{
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+    img{
+        height: 200px;
+        object-fit: contain;
+    }
+}

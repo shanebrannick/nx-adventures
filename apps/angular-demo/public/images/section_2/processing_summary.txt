@@ -1,0 +1,8 @@
+Processing Summary - 21/01/2026 09:39:37
+Source folder: C:\Users\Shaneyboy\Desktop\Aviva\images\New folder\Section_2
+Total folder types processed: 5
+- placeholder: 1 images processed
+- small: 1 images processed
+- medium: 1 images processed
+- large: 1 images processed
+- xlarge: 1 images processed
