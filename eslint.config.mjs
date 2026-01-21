@@ -15,7 +15,6 @@ export default [
   {
     ignores: [
       '**/dist',
-      // Ignore generator template files containing EJS placeholders
       '**/src/generators/**/files/**',
       '**/vite.config.*.timestamp*',
       '**/vitest.config.*.timestamp*',

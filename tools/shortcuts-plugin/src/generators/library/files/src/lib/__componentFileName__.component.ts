@@ -14,7 +14,7 @@ export class <%= componentClassName %> {
  
 
   
-  protected _title = 'Spider-Baby ';
+  protected _title = '<%= componentClassName %>_Title';
 
 
 

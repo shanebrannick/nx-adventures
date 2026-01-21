@@ -1,0 +1,14 @@
+{
+  "name": "@ng-demo-web/entry-point",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/core": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "@ng-demo-web-core/config": "0.0.1",
+    "@ng-demo-web-shared-pages/not-found": "0.0.1",
+    "vite": "7.1.3",
+    "@analogjs/vite-plugin-angular": "2.2.2",
+    "@nx/vite": "^22.3.3"
+  },
+  "sideEffects": false
+}

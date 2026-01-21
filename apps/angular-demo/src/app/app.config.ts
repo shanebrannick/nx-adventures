@@ -4,7 +4,8 @@ import {
   provideZoneChangeDetection, isDevMode,
 } from '@angular/core';
 import { provideRouter, withViewTransitions } from '@angular/router';
-import { appRoutes } from './app.routes';
+// import { webAppRoutes } from './app.routes';
+import { webAppRoutes } from '@ng-demo-web/entry-point';
 import {
   provideClientHydration,
   withEventReplay,
@@ -21,7 +22,7 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(
-      appRoutes,
+      webAppRoutes,
       withViewTransitions(appViewTransition)
     ),
     provideServiceWorker('ngsw-worker.js', {

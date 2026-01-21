@@ -48,7 +48,7 @@ function normalizeOptions(options: LibraryGeneratorGeneratorSchema): NoramlizedL
     ...options,
     name: options.name,
     directory: options.directory || options.name,
-    importPath: options.importPath || `@spider-baby/${options.name}`,
+    importPath: options.importPath || `@aviva/${options.name}`,
     componentClassName: componentClassName,
     componentFileName: componentFileName,
     componentName: sanitizedComponentName,

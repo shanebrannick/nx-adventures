@@ -32,6 +32,15 @@
       ],
       "@nx-adventures/generators-utils": [
         "libs/tools/generators/utils/src/index.ts"
+      ],
+      "@ng-demo-web/entry-point": [
+        "libs/@angular-demo/web/@entry-point/src/index.ts"
+      ],
+      "@ng-demo-web/route-defs": [
+        "libs/@angular-demo/web/@route-defs/src/index.ts"
+      ],
+      "@ng-demo-web-shared-pages/not-found": [
+        "libs/@angular-demo/web/shared/pages/not-found/src/index.ts"
       ]
     }
   },
