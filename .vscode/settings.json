@@ -1,4 +1,8 @@
 {
+  // Ensure the Vitest extension searches for project-specific Vite/Vitest configs
+  "vitest.configSearchPatternInclude": "**/*{vite,vitest}*.config*.{ts,js,mjs,cjs,cts,mts}",
+  // Prefer workspace-level config discovery (extension will pick up root-level vitest.config.mts)
+  "vitest.workspaceConfigFile": "vitest.config.mts",
   // Force new integrated terminals to start in the workspace root
   "terminal.integrated.cwd": "${workspaceFolder}"
 }
